@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: honeydew;
+
+    text-decoration: none;
+    line-height: 1.3em;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(0, 221, 0);
+    font-size: 2em;
+
+}
+
+p, ul, span {
+    font-size: 1.5em;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0px auto;
+    background: rgb(150, 150, 143);
+    font-family: 'Caveat', cursive;
+}
+
+
+/* ----- header start -----  */
+
+header {
+    background: rgb(56, 56, 56);
+    padding: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header-image {
+    width: 150px;
+    height: 150px;
+
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+
+    float: left;
+    margin-bottom: 25px;
+}
+
+.header-bio {
+    float: left;
+    margin: 35px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.header-contact {
+    float: right;
+    margin: 40px 20px;
+}
+
+.header-contact a:hover {
+    font-style: italic;
+    color: orangered;
+}
+
+.clear-header-div {
+    clear: both;
+    border: 3px solid white;
+}
+
+/* ----- header end -----  */
+
+
+
+/* ----- main start -----  */
+
+main {
+    background: rgb(94, 93, 93);
+    padding: 25px;
+}
+
+/* ----- personal section start -----  */
+
+.left-div {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.right-div {
+    width: 70%;
+    float: right;
+    margin-bottom: 25px;
+}
+
+.clear-main-div {
+    clear: both;
+    border: 2px solid whitesmoke;
+    margin-bottom: 25px;
+}
+
+/* ----- personal section end -----  */
+
+
+
+
+/* ----- key skill section start -----  */
+ul {
+    padding: 0px 25px;
+}
+/* ----- key skill section end -----  */
+
+
+
+
+/* ----- Education section start ----- */
+.left-template {
+    width: 45%;
+    float: left;
+}
+
+.right-template {
+    width: 45%;
+    float: right;
+}
+/* ----- Education section end ----- */
+
+
+
+
+/* ----- footer start ----- */
+footer {
+    background: black;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+footer li {
+    display: inline-block;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
